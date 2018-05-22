@@ -27,7 +27,6 @@ plotGrupos=function(dados, QteClusters, matrizDist,centroide){
 		points(centroide[k,],pch=20,col=cores[k-1])
 	}
 	legend("bottomright", legend=c(1:k), col=c(1,cores[2:k-1]), bty="n", pch=19)
-
 }
 
 kmeans=function(dados,QteClusters){
@@ -59,7 +58,7 @@ kmeans=function(dados,QteClusters){
 			Sys.sleep(3)
 		}
 		m = matrix(nrow=1,ncol=QteClusters)
-		rownames(m) <- "Qte Elementos por Grupos"
+		rownames(m) <- "Qte Elementos por Grupo"
 		for(k in 1:QteClusters){
 			m[1,k]= length(which(matrizDist[,QteClusters+1]==k))
 		}
