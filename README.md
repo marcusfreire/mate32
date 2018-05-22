@@ -1,5 +1,5 @@
 # MATE32 - 2018.1
-##Tópicos em Inteligência Computacional II
+## Tópicos em Inteligência Computacional II
 
 #### Disciplina sobre aprendizado de máquina: modelos descritivos.
 
