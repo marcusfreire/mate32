@@ -11,6 +11,6 @@
 * Agrupamento de séries temporais com agrupamento hierárquicos (h-clust), utilizando o DTW e o MDDL para fornecer as distâncias entre as séries temporais.
 	+ Implemetação em R.
 
-###Componentes:
+### Componentes:
 * Marcus Freire
 * Luan Menezes
